@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
     <SiteBanner/>
-    <Exhibit title="IP Addresses">
+    <Exhibit title="User metrics">
       <PublicIPAddress ipv4={true}/>
       <PublicIPAddress ipv4={false}/>
       <PacketLatency/>

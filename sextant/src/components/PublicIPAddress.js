@@ -21,7 +21,7 @@ const PublicIPAddress = ({ ipv4 }) => {
     <div>
       <h2>Your {ipv4 ? 'IPv4' : 'IPv6'} Address</h2>
       {ipAddress ? (
-        <p>Your public {ipv4 ? 'IPv4' : 'IPv6'} address is: {ipAddress}</p>
+        <p>Public {ipv4 ? 'IPv4' : 'IPv6'} address is: {ipAddress}</p>
       ) : (
         <p>Loading...</p>
       )}

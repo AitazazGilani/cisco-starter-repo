@@ -15,7 +15,6 @@ const PacketLatency = () => {
         const packetLatency = currentTimestamp - packetTimestamp;
         setLatency(packetLatency);
       }
-      console.log(message.timeStamp)
     });
 
   }, []);
@@ -24,7 +23,7 @@ const PacketLatency = () => {
     <div>
       <h2>Packet Latency</h2>
       {latency !== null ? (
-        <p>Packet Latency: {latency} milliseconds</p>
+        <p>Pylon Packet Latency: {latency}</p>
       ) : (
         <p>Connecting to Pylon...</p>
       )}
