@@ -8,7 +8,7 @@ const SiteBanner = () => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6">
-          Your Site Title
+          Sextant Dashboard
         </Typography>
       </Toolbar>
     </AppBar>
