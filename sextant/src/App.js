@@ -1,5 +1,6 @@
 import Exhibit from './components/Exhibit';
 import SiteBanner from './components/SiteBanner';
+import PublicIPAddress from './components/PublicIPAddress';
 import './App.css';
 
 function App() {
@@ -7,8 +8,8 @@ function App() {
     <div>
     <SiteBanner/>
     <Exhibit title="Sample Exhibit">
-      {/* Add child components here */}
-      <p>This is some content inside the exhibit.</p>
+      <PublicIPAddress ipv4={true}/>
+      <PublicIPAddress ipv4={false}/>
     </Exhibit>
     {/* You can add more exhibits or other content here */}
   </div>
